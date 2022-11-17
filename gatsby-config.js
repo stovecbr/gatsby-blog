@@ -9,15 +9,25 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    // title: `Gatsby Starter Blog`,
+    // author: {
+    //   name: `Kyle Mathews`, 
+    //   summary: `who lives and works in San Francisco building useful things.`,
+    // },
+    title: `練習用ブログ`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `「ゆーざー」`, 
+      summary: `日本在住。gatsby勉強中。`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    // description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `練習用ブログ作成`,
+    // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `http://localhost:8000/`,
+    // social: {
+    //   twitter: `kylemathews`,
+    // },
     social: {
-      twitter: `kylemathews`,
+      twitter: `elonmusk`,
     },
   },
   plugins: [
