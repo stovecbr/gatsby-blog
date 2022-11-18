@@ -21,7 +21,10 @@ description: 最初のテストブログ
 
 >引用です-
 
-![画像](\wolf.jpg)
+
+![Chinese Salty Egg](../hello-world/salty_egg.jpg)
+
+![画像](./wolf.jpg)
 <div style="text-align: right;">
 おおかみ<br>
 右寄せ　中央寄せ　マークダウン使えない
