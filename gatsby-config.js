@@ -22,7 +22,7 @@ module.exports = {
     // description: `A starter blog demonstrating what Gatsby can do.`,
     description: `練習用ブログ作成`,
     // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    siteUrl: `http://localhost:8000/`,
+    siteUrl: `https://heroic-semolina-a5bf05.netlify.app/`,
     // social: {
     //   twitter: `kylemathews`,
     // },
