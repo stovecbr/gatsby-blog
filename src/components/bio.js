@@ -38,13 +38,14 @@ const Bio = () => {
         formats={["auto", "webp", "avif"]}
         // src="../images/profile-pic.png"
         src="../images/Weisser_Wolf_Berlin_ca_1998.jpg"
-        width={80}
+        width={65}
         height={65}
         quality={95}
         alt="Profile picture"
       />
       {author?.name && (
         <p>
+          <br></br>
           <strong>{author.name}</strong> が作成しました！！  {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
