@@ -22,9 +22,11 @@ description: 最初のテストブログ
 >引用です-
 
 
-![Chinese Salty Egg](../hello-world/salty_egg.jpg)
 
 ![画像](./wolf.jpg)
+
+
+
 <div style="text-align: right;">
 おおかみ<br>
 右寄せ　中央寄せ　マークダウン使えない
@@ -47,5 +49,9 @@ echo "hello world.";
 >
 ```
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nPwUP30ryrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+[def]: C:\Users\pc-013\Desktop\work\renshu-blog\src\images\Weisser_Wolf_Berlin_ca_1998.jpg

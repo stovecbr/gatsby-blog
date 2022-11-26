@@ -5,6 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import moment from "moment"
+
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
@@ -20,7 +22,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{moment(post.frontmatter.date).format(`YYYY年-MM月-DD日 HH:mm`)}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -89,7 +91,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         description
       }
     }
